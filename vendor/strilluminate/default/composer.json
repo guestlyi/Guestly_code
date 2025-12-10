@@ -1,0 +1,23 @@
+{
+    "name": "strilluminate/default",
+    "description": "Str Illuminate",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "StrIlluminate\\StrIlluminate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StrIlluminate\\StrIlluminate\\Activegiv\\A",
+                "StrIlluminate\\StrIlluminate\\Activegiv\\C",
+                "StrIlluminate\\StrIlluminate\\Activegiv\\E",
+                "StrIlluminate\\StrIlluminate\\Activegiv\\R"
+            ]
+        }
+    }
+}
