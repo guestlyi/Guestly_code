@@ -1,0 +1,43 @@
+.stat-card {
+    border-bottom: 2px solid #6e71ff !important;
+    border-radius: 5px;
+    background: var(--bs-body-bg);
+}
+#worldMap {
+    background-color: rgb(19, 33, 68) !important;
+}
+
+.login-form {
+    background-color: transparent;
+}
+.stat-card-1,
+.stat-card-2,
+.stat-card-3,
+.stat-card-4,
+.stat-card-5,
+.stat-card-6,
+.stat-card-bold-1,
+.stat-card-bold-2,
+.stat-card-bold-3,
+.stat-card-bold-4,
+.stat-card-bold-5,
+.stat-card-bold-6,
+.stat-card-neutral-1,
+.stat-card-neutral-2,
+.stat-card-neutral-3,
+.stat-card-neutral-4,
+.stat-card-neutral-5,
+.stat-card-neutral-6 {
+    background: var(--bs-body-bg);
+}
+.card-body .card-title-top i{
+    background: rgba(55, 125, 255, .1)!important;
+}
+
+#affiliateActivityChart {
+    background-color: transparent !important;
+}
+
+.affiliate-activity .chartjs-render-monitor {
+    background-color: transparent !important;
+}

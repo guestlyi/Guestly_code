@@ -1,0 +1,82 @@
+[2025-12-10 09:15:07] local.INFO: /user/dashboard  
+[2025-12-10 09:15:07] local.INFO: ----1  
+[2025-12-10 09:17:40] local.INFO: email  
+[2025-12-10 09:17:40] local.INFO: ----1  
+[2025-12-10 09:20:02] local.INFO: email  
+[2025-12-10 09:20:02] local.INFO: ----1  
+[2025-12-10 09:20:52] local.INFO: email  
+[2025-12-10 09:20:52] local.INFO: ----1  
+[2025-12-10 12:02:41] local.INFO: phone  
+[2025-12-10 12:02:41] local.INFO: ----1  
+[2025-12-10 12:06:11] local.INFO: username  
+[2025-12-10 12:06:19] local.INFO: email  
+[2025-12-10 12:06:19] local.INFO: ----1  
+[2025-12-10 16:27:57] local.INFO: email  
+[2025-12-10 16:28:06] local.INFO: email  
+[2025-12-10 16:28:06] local.INFO: ----1  
+[2025-12-10 16:34:46] local.ERROR: View [payment.user.payment.razorpay] not found. {"userId":6,"exception":"[object] (InvalidArgumentException(code: 0): View [payment.user.payment.razorpay] not found. at /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:139)
+[stacktrace]
+#0 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
+#1 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/View/Factory.php(151): Illuminate\\View\\FileViewFinder->find()
+#2 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(1062): Illuminate\\View\\Factory->make()
+#3 /home/guestlyi/public_html/app/Http/Controllers/PaymentController.php(68): view()
+#4 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\\Http\\Controllers\\PaymentController->depositConfirm()
+#5 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction()
+#6 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#7 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\\Routing\\Route->runController()
+#8 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(808): Illuminate\\Routing\\Route->run()
+#9 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}()
+#10 /home/guestlyi/public_html/app/Http/Middleware/MaintenanceMode.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}()
+#11 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): App\\Http\\Middleware\\MaintenanceMode->handle()
+#12 /home/guestlyi/public_html/vendor/strilluminate/default/src/Activereq/Activeck/M.php(23): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#13 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): StrIlluminate\\StrIlluminate\\Activereq\\Activeck\\M->handle()
+#14 /home/guestlyi/public_html/app/Http/Middleware/Preview.php(40): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#15 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): App\\Http\\Middleware\\Preview->handle()
+#16 /home/guestlyi/public_html/app/Http/Middleware/ActivityByUser.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#17 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): App\\Http\\Middleware\\ActivityByUser->handle()
+#18 /home/guestlyi/public_html/app/Http/Middleware/Language.php(25): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#19 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): App\\Http\\Middleware\\Language->handle()
+#20 /home/guestlyi/public_html/app/Http/Middleware/ValidateRequestData.php(28): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#21 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): App\\Http\\Middleware\\ValidateRequestData->handle()
+#22 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#23 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#24 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#25 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#26 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#27 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#28 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#29 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#30 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle()
+#31 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#32 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#33 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#34 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#35 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#36 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(807): Illuminate\\Pipeline\\Pipeline->then()
+#37 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack()
+#38 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(750): Illuminate\\Routing\\Router->runRoute()
+#39 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute()
+#40 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(201): Illuminate\\Routing\\Router->dispatch()
+#41 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}()
+#42 /home/guestlyi/public_html/vendor/livewire/livewire/src/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}()
+#43 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle()
+#44 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#45 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#46 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#47 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#48 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#49 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#50 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#51 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#52 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#53 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#54 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#55 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#56 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#57 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#58 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}()
+#59 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then()
+#60 /home/guestlyi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#61 /home/guestlyi/public_html/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#62 {main}
+"} 

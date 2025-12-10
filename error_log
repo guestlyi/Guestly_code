@@ -1,0 +1,9 @@
+[03-Dec-2025 06:19:28 UTC] PHP Warning:  require(/home/guestlyi/public_html/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php): Failed to open stream: No such file or directory in /home/guestlyi/public_html/vendor/composer/autoload_real.php on line 41
+[03-Dec-2025 06:19:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/guestlyi/public_html/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/guestlyi/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/guestlyi/public_html/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInit22e34673d1d92c077f40c8745f9aea42::getLoader():37}()
+#1 /home/guestlyi/public_html/vendor/autoload.php(22): ComposerAutoloaderInit22e34673d1d92c077f40c8745f9aea42::getLoader()
+#2 /home/guestlyi/public_html/index.php(34): require('/home/guestlyi/...')
+#3 {main}
+  thrown in /home/guestlyi/public_html/vendor/composer/autoload_real.php on line 41
+[09-Dec-2025 15:15:00 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Auth\LoginController::username() in /home/guestlyi/public_html/app/Http/Controllers/Auth/LoginController.php on line 74

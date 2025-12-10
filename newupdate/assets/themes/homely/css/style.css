@@ -1,0 +1,83 @@
+/* ----------------------------------------------------------
+TABLE OF CONTENT
+-------------------------------------------------------------
+* 1. imported styles
+* 2. preloader styles
+* 3. header styles
+* 4. banner styles
+* 5. footer styles
+* 6. categories styles
+* 7. services styles
+* 8. featured styles
+* 9. reward styles
+* 10. pricing styles
+* 11. counter styles
+* 12. blog styles
+* 13. testimonial styles
+* 14. app styles
+* 15. search bar styles
+* 16. choose styles
+* 17. contact styles
+-------------------------------------------------------------
+TABLE OF CONTENT
+------------------------------------------------------------ */
+
+
+/* css plugings */
+@import url("bootstrap.css");
+@import url("color.css");
+@import url("all.min.css");
+@import url("animate.css");
+@import url("search-popup.css");
+@import url("icomoon.css");
+@import url("swiper.min.css");
+@import url("elpath.css");
+@import url("select2.min.css");
+@import url("nice-select.css");
+@import url("nouislider.min.css");
+@import url("odometer-theme-default.css");
+@import url("magnific-popup.css");
+@import url("daterangepicker.css");
+@import url("owl.css");
+@import url("progresscircle.css");
+@import url("intlTelInput.min.css");
+@import url("evo-calendar.min.css");
+@import url("m-search-box.css");
+@import url("fancybox.css");
+
+/* modul css */
+
+@import url("01-global.css");
+@import url("module-css/01-header.css");
+@import url("module-css/02-mobile-menu.css");
+@import url("module-css/03-banner.css");
+@import url("module-css/04-footer.css");
+@import url("module-css/05-destination-search.css");
+@import url("module-css/06-categories.css");
+@import url("module-css/07-popular.css");
+@import url("module-css/08-offer.css");
+@import url("module-css/09-private.css");
+@import url("module-css/10-property.css");
+@import url("module-css/11-testimonial.css");
+@import url("module-css/12-trending.css");
+@import url("module-css/13-blog.css");
+@import url("module-css/14-companies.css");
+@import url("module-css/15-about.css");
+@import url("module-css/16-team.css");
+@import url("module-css/17-counter.css");
+@import url("module-css/18-contact.css");
+@import url("module-css/19-solution.css");
+@import url("module-css/20-faq.css");
+@import url("module-css/21-services.css");
+@import url("module-css/22-signin-signup.css");
+@import url("module-css/23-help-center.css");
+@import url("module-css/24-enter-home.css");
+@import url("module-css/25-deshboard.css");
+@import url("module-css/26-support-ticket.css");
+@import url("module-css/27-user-profile.css");
+@import url("module-css/28-booking.css");
+@import url("module-css/29-amenities.css");
+@import url("destination.css");
+@import url("responsive.css");
+
+

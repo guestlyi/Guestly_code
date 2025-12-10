@@ -1,0 +1,115 @@
+.property-container {
+    position: relative;
+    padding: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.property-content {
+    max-width: 602px;
+    width: 100%;
+}
+.property-content h3 {
+    color: var(--white-color) !important;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+}
+.property-content h3 span {
+    color: var(--primary-color);
+}
+.property-content p {
+    margin: 38px 0 60px;
+    color: var(--white-color) !important;
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .property-container {
+        padding: 85px 36px;
+    }
+    .property-content h3 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .property-container {
+        padding: 40px;
+    }
+}
+@media (max-width: 991px) {
+    .property-content p {
+        margin: 20px 0 30px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .property-container {
+        padding: 85px 16px;
+    }
+    .property-content h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .property-container {
+        padding: 30px;
+    }
+}
+/* ---------------------------------
+responsive
+---------------------------------- */
+
+/* Cta section start */
+.cta-section .text-box {
+    max-width: 594px;
+    color: var(--white-color);
+    margin-left: auto;
+}
+.cta-section .text-box .section-title {
+    color: var(--white-color);
+    margin-bottom: 38px;
+}
+.cta-section .text-box .description {
+    color: var(--white-color);
+}
+.cta-section .text-box .btn-1 {
+    margin-top: 60px;
+}
+.cta-section-inner {
+    background-image: url(../../images/cta/cta-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 60px;
+    border-radius: 8px;
+}
+.section-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+}
+@media (max-width: 991px) {
+    .cta-section .text-box .section-title {
+        margin-bottom: 20px;
+    }
+    .section-title {
+        font-size: 36px;
+    }
+    .cta-section .text-box .btn-1 {
+        margin-top: 30px;
+    }
+    .cta-section-inner {
+        padding: 40px 30px;
+    }
+}
+@media (max-width: 767px) {
+    .section-title {
+        font-size: 32px;
+    }
+}
+/* Cta section end */

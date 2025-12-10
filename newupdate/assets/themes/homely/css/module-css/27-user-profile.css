@@ -1,0 +1,150 @@
+.user-profile-container{
+    padding: 50px 0;
+    border-bottom: 1px solid var(--border-1);
+}
+.user-profile-name {
+    position: relative;
+    border: 1px solid var(--border-2);
+    padding: 30px 30px;
+    border-radius: 16px;
+    box-shadow: var(--shadow-1);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.user-profile-content {
+    text-align: center;
+    color: var(--text-color-1);
+}
+.user-profile-photo {
+    position: relative;
+    max-width: 120px;
+    width: 100%;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.user-profile-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.user-profile-info-list{
+    color: var(--text-color-1);
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-1);
+}
+.user-profile-info-list h4{
+    margin-bottom: 0;
+}
+.user-profile-info-list span{
+    font-size: 14px;
+}
+.user-about-list li{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.user-about-list li i{
+    margin-right: 10px;
+}
+.user-about-list li strong{
+    margin-right: 5px;
+}
+
+.user-profile-container .col-lg-4:first-child .user-reviews-content{
+    border-left: 1px solid transparent;
+    padding-left: 0;
+}
+.user-reviews-content{
+    border-left: 1px solid var(--border-1);
+    padding-left: 15px;
+    height: 100%;
+}
+.user-review-image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-review-image img{
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-review-image p{
+    margin-bottom: 0;
+}
+.user-rating{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.user-rating ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.user-rating ul li i{
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+.user-aminitis-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.user-aminitis-list li{
+    font-size: 20px;
+}
+.user-profile-container .categories-single{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.user-profile-container .categories-single-image{
+    width: 100%;
+    height: 250px;
+}
+.user-profile-container .categories-single-image a, .user-profile-container .categories-single-image a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.user-guidebooks{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.user-guidebooks iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.user-about .social-media ul li a {
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    border: 1px solid #909090;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #909090;
+    transition: 0.5s;
+}
+.user-about .social-media ul li a:hover{
+    background: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    border: 1px solid var(--primary-color);
+}

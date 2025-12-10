@@ -1,0 +1,59 @@
+/* Popular amenities section start */
+.popular-amenities-seciton {
+  background-image: url(../../images/amenities/amenities-bg.png);
+  position: relative;
+  z-index: 0;
+  padding: 80px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-amenities-seciton::after {
+  content: "";
+  background-image: linear-gradient(
+    90deg,
+    rgba(71, 71, 71, 0.08) 0%,
+    rgba(108, 108, 108, 0.4) 100%
+  );
+  inset: 0;
+  z-index: -1;
+  position: absolute;
+}
+.popular-amenities-seciton .section-header {
+  max-width: 421px;
+}
+.popular-amenities-seciton .section-title {
+  color: var(--white-color);
+}
+.amenities-box {
+  padding: 40px 32px;
+  border-radius: 16px;
+  border: 1px solid rgb(var(--white-color-rgb), 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  height: 100%;
+}
+.amenities-box .icon-box {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amenities-box .text-box {
+  margin-top: 62px;
+}
+.amenities-box .text-box .title {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+@media (max-width: 991px) {
+  .popular-amenities-seciton {
+    padding: 60px 0;
+  }
+}
+/* Popular amenities section end */

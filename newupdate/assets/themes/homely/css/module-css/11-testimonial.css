@@ -1,0 +1,33 @@
+.testimonial .common-title {
+    max-width: 579px;
+    width: 100%;
+}
+.testimonial-single {
+    position: relative;
+    padding: 22px 22px;
+    border-radius: 8px;
+    border: 1px solid var(--border-2);
+    z-index: 1;
+}
+.testimonial-single i {
+    margin-bottom: 12px;
+}
+.testimonial-info-box {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.testimonial-info h6 {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.testimonial-info p {
+    margin-bottom: 0;
+}
+.testimonial-shape {
+    position: absolute;
+    right: 36px;
+    bottom: 70px;
+    z-index: -1;
+}

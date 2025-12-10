@@ -1,0 +1,141 @@
+.solution{
+    padding: 120px 0 120px;
+}
+.solution .common-title{
+    max-width: 619px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    text-align: center;
+}
+.solution-table{
+    border-radius: 24px;
+    border: 1px solid var(--border-3);
+    background: var(--white-color);
+    overflow: hidden;
+}
+.solution-table h6{
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.solution-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 180px;
+    padding: 20px 50px 20px 20px;
+    border-bottom: 1px solid var(--border-3);
+}
+.solution-body ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px 20px;
+    border-top: 1px solid var(--border-3);
+}
+.solution-body ul li:first-child{
+    border-top: none;
+}
+.solution-content{
+    width: calc(75% - 477px);
+}
+.solution-content p{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.compair-mark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    padding-right: 46px;
+}
+.solution-body{
+    height: 600px;
+    overflow-y: auto;
+}
+
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px){
+
+}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px){
+    .solution-header {
+        gap: 96px;
+    }
+    .solution-content {
+        width: calc(75% - 300px);
+    }
+
+    .counter-single p {
+        font-size: 18px;
+    }
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .solution-header {
+        gap: 65px;
+    }
+    .solution-content {
+        width: calc(75% - 200px);
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .solution-header {
+        gap: 35px;
+        padding: 20px 30px 20px 20px;
+    }
+    .solution-content {
+        width: calc(70% - 80px);
+    }
+    .compair-mark {
+        width: 30%;
+        padding-right: 30px;
+    }
+    .solution-body{
+        height: 400px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .solution-header {
+        gap: 35px;
+        padding: 20px 30px 20px 20px;
+    }
+    .solution-content {
+        width: calc(70% - 80px);
+    }
+    .compair-mark {
+        width: 30%;
+        padding-right: 30px;
+    }
+    .solution-body{
+        height: 300px;
+    }
+    .solution-table{
+        overflow-x: auto;
+    }
+    .solution-table-inner{
+        width: 700px;
+    }
+
+    .solution {
+        padding: 80px 0 80px;
+    }
+}
+/* ---------------------------------
+responsive
+---------------------------------- */

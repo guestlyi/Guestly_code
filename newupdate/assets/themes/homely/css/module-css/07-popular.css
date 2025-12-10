@@ -1,0 +1,494 @@
+.popular .common-title {
+    max-width: 530px;
+    width: 100%;
+}
+
+.popular-slider {
+    position: relative;
+}
+
+.popular-single {
+    position: relative;
+}
+
+.popular-single-badge {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    background: rgba(15, 15, 16, 0.6);
+    color: var(--white-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.popular-image {
+    width: 100%;
+    aspect-ratio: 348 / 293;
+    border-radius: 8px;
+}
+
+.popular-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.popular-content {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.popular-content .popular-content-title {
+    color: var(--black-color) !important;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.popular-content .popular-content-title:hover {
+    color: var(--primary-color) !important;
+}
+
+.popular-content .popular-content-btn {
+    color: var(--black-color);
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--btn-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular-content .popular-content-btn:hover {
+    color: var(--white-color) !important;
+    background: var(--primary-color);
+}
+
+.popular-slider .swiper-button-next,
+.popular-slider .swiper-button-prev {
+    top: -65px !important;
+}
+
+.popular-slider .swiper-button-next {
+    left: auto;
+    right: 0;
+}
+
+.popular-slider .swiper-button-next:hover,
+.popular-slider .swiper-button-prev:hover {
+    background: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.popular-slider .swiper-button-prev {
+    left: 87%;
+}
+
+/* ---------------------------------
+popular 2
+---------------------------------- */
+.popular-two {
+    padding: 120px 0 90px;
+}
+
+.popular-two .common-title {
+    max-width: 621px;
+}
+
+.popular-two-single {
+    margin-bottom: 30px;
+}
+
+.popular-two-image {
+    width: 100%;
+    height: 392px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.popular-two-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.popular-two-single-title {
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 12px 0;
+}
+
+.popular-two-content-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-two-content-btn p {
+    margin-bottom: 0;
+}
+
+.popular-two-content-btn a {
+    color: var(--primary-color);
+}
+
+/* ---------------------------------
+popular 2
+---------------------------------- */
+
+/* ---------------------------------
+escape
+---------------------------------- */
+.escape {
+    padding: 0 0 90px;
+}
+
+.escape .common-title {
+    max-width: 740px;
+}
+
+.escape-content-btn a {
+    color: var(--black-color);
+}
+
+.escape-image {
+    width: 100%;
+    height: 332px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.escape-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+/* ---------------------------------
+escape
+---------------------------------- */
+
+/* ---------------------------------
+New York
+---------------------------------- */
+.newyork {
+    padding: 120px 0 90px;
+}
+
+.newyork .common-title {
+    max-width: 546px;
+    width: 100%;
+}
+
+.newyork-single {
+    position: relative;
+}
+
+.newyork-single-badge {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    color: var(--black-color);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.newyork-image {
+    width: 100%;
+    height: 332px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.newyork-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.newyork-content-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newyork-content-title a {
+    color: var(--black-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 16px 0 10px;
+}
+
+.newyork-content-title .rat .fa-star {
+    color: #e8c821;
+    font-size: 12px;
+}
+
+.rat {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ---------------------------------
+New York
+---------------------------------- */
+
+/* ---------------------------------
+vacation
+---------------------------------- */
+.vacation {
+    padding: 0 0 90px;
+}
+
+.vacation .common-title {
+    max-width: 637px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.vacation .popular-two-image {
+    width: 100%;
+    height: 331px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.vacation .popular-two-content-btn {
+    margin-top: 10px;
+}
+
+.vacation .popular-two-content-btn h6 {
+    margin-bottom: 0;
+}
+
+.space {
+    color: var(--black-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 12px 0 0;
+}
+
+/* ---------------------------------
+vacation
+---------------------------------- */
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px) {}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+    .popular-slider .swiper-button-prev {
+        left: 84%;
+    }
+
+    .popular-two-image {
+        height: 300px;
+    }
+
+    .popular-two-content-btn p {
+        font-size: 14px;
+    }
+
+    /* vacation */
+    .newyork-content-title a,
+    .space {
+        font-size: 20px;
+    }
+
+    .escape-image {
+        height: 300px;
+    }
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .popular-two-image {
+        height: 250px;
+    }
+
+    .escape-image {
+        width: 100%;
+        height: 240px;
+    }
+
+    .popular-two-single-title {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 8px 0;
+    }
+
+    .newyork-content-title a {
+        font-size: 16px;
+    }
+
+    .popular-two-content-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .popular-slider .swiper-button-prev {
+        left: 80%;
+    }
+
+    .rat {
+        font-size: 14px;
+    }
+
+    /* vacation */
+    .newyork-content-title a,
+    .space {
+        font-size: 20px;
+    }
+
+    .newyork-content-title a {
+        font-size: 16px;
+    }
+
+    .vacation .popular-two-image {
+        height: 250px;
+    }
+
+    .vacation .space {
+        font-size: 17px;
+    }
+
+    .vacation .popular-two-content-btn {
+        margin-top: 0;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-slider .swiper-button-prev {
+        left: 75%;
+    }
+
+    .popular-two-image {
+        height: 325px;
+    }
+
+    .popular-two-single-title {
+        margin: 5px 0;
+    }
+
+    .newyork {
+        padding: 100px 0 70px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .popular-slider .swiper-button-prev {
+        left: 73%;
+    }
+
+    .popular-content h6 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .popular-two {
+        padding: 80px 0 50px;
+    }
+
+    .popular-two-image {
+        height: 350px;
+    }
+
+    .rat {
+        font-size: 14px;
+    }
+
+    .newyork {
+        padding: 80px 0 70px;
+    }
+
+    .newyork-content-title a {
+        color: var(--black-color);
+        font-size: 18px;
+    }
+
+    .popular-slider .swiper-button-next,
+    .popular-slider .swiper-button-prev {
+        top: auto !important;
+        bottom: -55px;
+    }
+
+    .popular-slider .swiper-button-next {
+        left: auto;
+        right: 0;
+    }
+
+    .popular-slider .swiper-button-prev {
+        left: auto;
+        right: 100px;
+    }
+
+    .offer .swiper-button-next,
+    .offer .swiper-button-prev {
+        top: auto !important;
+        bottom: -55px;
+    }
+
+    .offer .swiper-button-next {
+        left: auto;
+        right: 0;
+    }
+
+    .offer .swiper-button-prev {
+        left: auto;
+        right: 100px;
+    }
+
+    .newyork-content-title {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .newyork-content-title a {
+        margin: 6px 0 0;
+    }
+
+    .vacation {
+        padding: 0 0 50px;
+    }
+
+    .escape {
+        padding: 0 0 60px;
+    }
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+html[dir="rtl"] .popular-slider .swiper-button-prev {
+    left: 0;
+    right: auto;
+}
+
+html[dir="rtl"] .popular-slider .swiper-button-next {
+    left: 100px;
+    right: auto;
+}

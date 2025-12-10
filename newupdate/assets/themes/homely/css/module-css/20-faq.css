@@ -1,0 +1,127 @@
+.faq {
+    padding-bottom: 120px;
+}
+
+.faq-container {
+    border-radius: 24px;
+    background: #F8F8F8;
+    padding: 60px 60px;
+}
+
+.faq-left-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-left-image img {
+    width: 223px;
+    height: 310px;
+}
+
+/* faq accordion */
+.faq-accordion .accordion {
+    --bs-accordion-bg: transparent;
+}
+
+.faq-accordion .accordion-item {
+    padding: 0;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid var(--border-1) !important;
+    padding-bottom: 5px;
+}
+
+.faq-accordion .accordion-button {
+    position: relative;
+    color: var(--black-color) !important;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 0 11px;
+    text-align: left;
+}
+
+.faq-accordion .accordion-button:not(.collapsed),
+.faq-accordion .accordion-button:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    background-color: transparent;
+    border-top: none !important;
+}
+
+
+.faq-accordion .accordion-button::after {
+    background: url(../../images/icons/plus.png);
+    width: 31px;
+    height: 25px;
+    background-color: transparent;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+    background: url(../../images/icons/minus.png);
+    width: 31px;
+    height: 25px;
+    background-color: transparent;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.faq-accordion .accordion-body {
+    padding: 10px 0 0;
+}
+
+.faq-accordion .accordion-body p {
+    margin-bottom: 16px;
+}
+
+/* faq accordion */
+
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px) {}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .faq-left-container {
+        display: none;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .faq {
+        padding-bottom: 60px;
+    }
+
+    .faq-left-container {
+        display: none;
+    }
+
+    .faq-container {
+        padding: 60px 15px;
+    }
+
+    .faq-accordion .accordion-button {
+        font-size: 16px;
+    }
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */

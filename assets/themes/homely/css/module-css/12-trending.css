@@ -1,0 +1,131 @@
+.trending {
+    padding-bottom: 120px;
+}
+.trending-shape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.trending-container {
+    border-radius: 16px;
+    border: 1px solid var(--border-2);
+}
+
+.trending-tabs {
+    border-bottom: 1px solid var(--border-2) !important;
+    justify-content: space-between;
+    column-gap: 28px;
+    row-gap: 10px;
+    padding: 0 30px !important;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+.trending-tabs .nav-link {
+    color: var(--text-color-1);
+    font-weight: 500;
+    padding: 34px 0 28px !important;
+}
+.trending-tabs .nav-item.show .nav-link,
+.trending-tabs .nav-link.active {
+    color: var(--black-color) !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid var(--primary-color);
+}
+.trending-tabs .nav-link:focus,
+.trending-tabs .nav-link:hover {
+    color: var(--black-color) !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid var(--primary-color);
+}
+.trending-tabs .nav-link {
+    position: relative;
+    color: var(--text-color-3);
+}
+.trending-tabs .nav-link::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+}
+.trending-tabs .nav-link.active::after,
+.trending-tabs .nav-link:hover::after {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.trending-tab-content .tab-content > .active {
+    display: block;
+    padding: 30px;
+}
+.trending-single {
+    margin: 22px 0;
+}
+.trending-single a h6 {
+    color: var(--black-color);
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.trending-single a p {
+    color: var(--text-color-1) !important;
+    margin-bottom: 0px;
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px) {
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .trending-btn-box nav {
+        overflow-x: auto;
+    }
+    .trending-tabs {
+        flex-wrap: nowrap !important;
+    }
+    .trending-tabs button {
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .trending {
+        padding-bottom: 100px;
+    }
+    .trending-btn-box nav {
+        overflow-x: auto;
+    }
+    .nav.nav-tabs.trending-tabs {
+        width: 1144px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .trending {
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .trending-btn-box nav {
+        overflow-x: auto;
+    }
+    .nav.nav-tabs.trending-tabs {
+        width: 1144px;
+    }
+    .trending-tab-content {
+        padding: 10px 15px;
+    }
+}
+/* ---------------------------------
+responsive
+---------------------------------- */

@@ -1,0 +1,104 @@
+.counter{
+    padding: 0 0 120px;
+}
+.counter .common-title{
+    max-width: 526px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.odometer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter .odometer-box .odometer, .counter .odometer-box .odometer-text{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    margin-bottom: 0;
+    color: var(--black-color);
+}
+.odometer-box .odometer-text{
+    margin-top: -4px;
+}
+.counter-single {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: radial-gradient(163.38% 173.82% at 75.57% 87.6%, #F6F6F6 0%, #FBFBFB 100%);
+    padding: 60px 0 60px;
+}
+.counter-single p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+
+
+
+
+/* ----------------------------------------
+Responsive
+------------------------------------------- */
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+    .counter-single p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .counter .odometer-box .odometer, .counter .odometer-box .odometer-text {
+        font-size: 40px;
+        line-height: 66px;
+    }
+    .counter-single p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .counter-single {
+        margin-bottom: 30px;
+    }
+    .counter-container {
+        padding: 20px 25px 0px;
+    }
+
+    .counter {
+        padding: 0 0 80px;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .counter-single {
+        margin-bottom: 30px;
+    }
+    .counter-container {
+        padding: 20px 15px 0px;
+    }
+    .counter .odometer-box .odometer, .counter .odometer-box .odometer-text {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .counter {
+        padding: 0 0 80px;
+    }
+
+}
+/* ----------------------------------------
+Responsive
+------------------------------------------- */

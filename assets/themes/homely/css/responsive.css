@@ -1,0 +1,150 @@
+
+@media (min-width: 1681px) and (max-width: 1790px) {
+  .custom-container {
+    max-width: 1580px;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  .custom-container {
+    max-width: 1430px;
+  }
+  .header-style-two .header-lower::after {
+    right: 18%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+}
+
+@media (min-width: 1439px) and (max-width: 1320px) {
+  .custom-container {
+    max-width: 1420px;
+  }
+}
+
+/* laptop */
+@media only screen and (max-width: 1440px) {
+  .custom-container {
+    max-width: 1290px;
+  }
+}
+/* laptop */
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+  .custom-container {
+    max-width: 1185px;
+  }
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .custom-container {
+    max-width: 980px;
+  }
+  .common-title {
+    gap: 15px;
+    flex-direction: column;
+  }
+  .common-title h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .prgoress_indicator {
+    right: 35px;
+    bottom: 45px;
+  }
+
+  .paigination ul {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .custom-container {
+    max-width: 750px;
+  }
+  .paigination ul {
+    margin-top: 20px;
+  }
+
+  .common-title h3,
+  .common-title-container h3 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .custom-container {
+    max-width: 300px;
+  }
+
+  .common-title {
+    gap: 15px;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .common-title h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .prgoress_indicator {
+    right: 10px;
+    bottom: 10px;
+  }
+  .paigination ul {
+    margin-top: 20px;
+    gap: 5px;
+  }
+  .paigination ul li a {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px) {
+}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+}
+/* ---------------------------------
+responsive
+---------------------------------- */

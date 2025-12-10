@@ -1,0 +1,183 @@
+.about{
+    padding: 0 0 120px;
+}
+.about-left-content {
+    margin-right: 103px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.about-left-content .common-title{
+    margin-bottom: 24px;
+}
+.about-left-content p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.about-right-container{
+    position: relative;
+}
+.about-right-container-inner{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-left: -39px;
+}
+.about-image-container{
+    position: relative;
+    z-index: 2;
+}
+.about-right-container-bg{
+    max-width: 586px;
+    width: 100%;
+    height: 456px;
+    border-radius: 70px;
+    background: #F1F1F1;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.about-right-container-bg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+}
+.about-right-container-logo {
+    position: absolute;
+    left: 36%;
+    top: 49%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+.about-right-container-logo img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.about-image-item{
+    margin-bottom: 22px;
+}
+.about-image-left-item{
+    width: 276px;
+    height: 363px;
+    border-radius: 12px;
+    background: #E2E2E2;
+}
+.about-image-left-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.about-image-item{
+    width: 310px;
+    height: 262px;
+    border-radius: 12px;
+    background: #E2E2E2;
+}
+.about-image-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+
+/* about 2 */
+.about-two-left-content .common-title h6{
+    color: var(--text-color-1);
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 24px 0 48px;
+}
+.about-two-right-image{
+    width: 100%;
+    height: 465px;
+    border-radius: 16px;
+}
+.about-two-right-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+/* about 2 */
+
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px){
+
+}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px){
+    .about-image-left-item {
+        width: 240px;
+        height: 330px;;
+    }
+    .about-image-item {
+        width: 235px;
+        height: 235px;
+    }
+    .about-right-container-logo {
+        left: 39%;
+        top: 48%;
+    }
+
+    .about-two-right-image {
+        height: 405px;
+    }
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .about-image-left-item {
+        width: 209px;
+        height: 325px;
+    }
+    .about-image-item {
+        width: 200px;
+        height: 215px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .about {
+        padding: 0 0 100px;
+    }
+    .about-two{
+        padding: 0 ;
+    }
+    .about-right-container-inner {
+        margin-left: 0;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .about {
+        padding: 0 0 80px;
+    }
+    .about-right-container {
+        display: none;
+    }
+    .about-left-content {
+        margin-right: 0;
+    }
+
+    .about-two{
+        padding: 0 ;
+    }
+    .about-two-right-image {
+        height: 240px;
+    }
+}
+/* ---------------------------------
+responsive
+---------------------------------- */

@@ -1,0 +1,69 @@
+.companies{
+    padding: 0 0 120px;
+}
+.companies .common-title{
+    max-width: 515px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.companies-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.companies-logo{
+    position: relative;
+}
+.hide-companies-logo{
+    position: absolute ;
+    top: -30px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.companies-item:hover .hide-companies-logo{
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px){
+
+}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px){
+
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .companies {
+        padding: 0 0 80px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .companies {
+        padding: 0 0 60px;
+    }
+
+
+}
+/* ---------------------------------
+responsive
+---------------------------------- */

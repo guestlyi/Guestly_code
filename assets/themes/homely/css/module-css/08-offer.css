@@ -1,0 +1,130 @@
+.offer-slider {
+    position: relative;
+}
+.offer-single {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 90px 0 40px 62px;
+}
+.offer-content {
+    max-width: 347px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.offer-content h4 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 0;
+}
+.offer-content p {
+    color: var(--black-color) !important;
+    max-width: 439px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.offer-content .btn-1 {
+    padding: 0 22px !important;
+    width: fit-content;
+    background: var(--white-color) !important;
+    border-color: var(--white-color) !important;
+    color: var(--black-color) !important;
+}
+.offer-content .btn-1:hover {
+    color: var(--black-color) !important;
+}
+
+/* ---------------------------------
+offer 2
+---------------------------------- */
+.offer-two {
+    padding: 0 0 120px;
+}
+.offer-two-container {
+    border-radius: 8px;
+    border: 1px solid var(--border-3);
+    background: var(--bg-2);
+    padding: 16px 16px;
+}
+.offer-two-container h6 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* ---------------------------------
+offer 2
+---------------------------------- */
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px) {
+}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+    .offer-single {
+        padding: 83px 0 0 30px;
+    }
+    .offer-content h4 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .offer-two-container h6 {
+        font-size: 14px;
+    }
+    .offer-two-container {
+        padding: 16px 10px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .offer-single {
+        padding: 40px 15px;
+    }
+    .offer-content h4 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .offer-two-container {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .offer-single {
+        padding: 83px 15px;
+    }
+    .offer-content h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .offer-two-container h6 {
+        font-size: 14px;
+    }
+    .offer-two-container {
+        margin-bottom: 20px;
+        padding: 16px 10px;
+    }
+    .offer-two {
+        padding: 0 0 60px;
+    }
+}
+/* ---------------------------------
+responsive
+---------------------------------- */
+html[dir="rtl"] .offer-single {
+    padding: 90px 40px 62px 0;
+}
